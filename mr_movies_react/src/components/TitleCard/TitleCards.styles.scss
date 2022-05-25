@@ -1,0 +1,159 @@
+.bio{
+    margin-top: 15px;
+}
+
+.bio-details{
+    text-justify: inter-word;
+
+    .showbio-click{
+        cursor: pointer;
+    }
+}
+
+.text-details{
+    margin-top: 15px;
+    font-size:medium;
+}
+
+
+
+.titleCard{
+    height:570px;
+    width: 310px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border: none;
+    max-width: 100%;
+    white-space: normal;
+
+    &.long-cards{
+        height: 240px;
+        width: 65vw; 
+    }
+
+    .titleName{
+        color: black;
+        font-size: larger;
+    }
+
+    .linkMovie{
+        margin-top: 5px;
+        width: 100%;
+        max-height: 45%;
+        object-fit:contain;
+        text-decoration: none;
+    }
+
+    .img{
+        width: 100%;
+        height: 100%;
+        object-fit:contain;
+    }
+
+    &.long-cards .img{
+        width: 100%;
+        height: 170px;
+        object-fit:contain;
+    }
+
+    &.long-cards .card-text{
+        font-size: small;
+        color: black;
+    }
+
+    .card-text{
+        font-size: small;
+        color: black;
+    }
+
+    .remove-button{
+        background-color: red;
+    }
+
+    .add-button{
+        background-color: green;
+    }
+
+    .login{
+        background-color: blue;
+        cursor: not-allowed;
+    }
+
+    .card-foot{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+.scroll-menu-arrow {
+    padding: 30px;
+    cursor: pointer;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:768px) {
+    .text-details{
+        margin-top: 8px;
+        font-size:small;
+    }
+
+    .cards-display{
+        padding: 0px !important;
+    
+        .titleCard{
+            height: 290px;
+            width: 165px;
+            margin-bottom: 8px;
+            margin-top: 8px;
+            margin-right: 5px !important;
+    
+            .linkMovie{
+                margin: 0px !important;
+                max-height: 78%;
+            }
+    
+            .img{
+                object-fit: cover;
+            }
+    
+            .body-card{
+                padding: 5px !important;
+    
+                .left-side{
+                    float: left;
+                    width: 130px;
+
+                    .card-text{
+                        font-size: 12px;
+                        margin: 3px !important;
+    
+                        .underline-text{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                .info{
+                    float: right;
+                    margin-top: 10px;
+                    width: 23px;
+                    height: 30px;
+                }
+            }
+        }
+    
+        .scroll-menu-arrow{
+            display: none;
+        }
+
+        .horizantal-cards{
+            .per-column{
+                padding: 3px !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.sort-movies{
+    padding: 20px 45px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .sorting{
+        background-color: dimgrey;
+        width: 85vw;
+        height: 40px;
+        align-items: center;
+        display: flex;
+
+        .option{
+            margin: 15px;
+            cursor: pointer;
+        }
+    }
+
+    .filter-form{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .sort-movies{
+        padding: 10px 20px;
+
+        .sort-heading{
+            font-size: large;
+        }
+
+        .sort-titles{
+
+            padding: 0px !important;
+    
+            .sorting{
+                width: 100vw;
+                height: 30px;
+    
+                .sort-by-heading{
+                    font-size: small;
+    
+                    .option{
+                        margin: 4px;
+                    }
+                }
+            }
+    
+            .filter-form{
+                .filter-heading{
+                    font-size: medium;
+                }
+    
+                .filter-sub{
+                    font-size: small;
+                }
+            }
+
+            .filter-icon{
+                float: right;
+                margin: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+}

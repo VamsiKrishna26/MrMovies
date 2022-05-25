@@ -1,0 +1,48 @@
+.discussions{
+    .comment{
+        width: 100%;
+        margin-top: 10px;
+
+        .emoji-picker{
+            width: 25px;
+            height: 25px;
+            cursor: pointer;
+        }
+    }
+    
+    .add-comment{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float: right;
+        background-color: green;
+    }
+
+    .login{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float: right;
+        background-color: blue;
+        cursor: not-allowed;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .comment{
+        margin-top: 7px;
+
+        .emoji-picker{
+            width: 10px;
+            height: 10px;
+        }
+    }
+    
+    .add-comment{
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+    .login{
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+}

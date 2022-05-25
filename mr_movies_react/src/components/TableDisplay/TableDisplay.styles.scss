@@ -1,0 +1,13 @@
+.top-movies{
+    .top-movies-heading{
+        padding: 20px 60px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .top-movies{
+        .top-movies-heading{
+            padding: 10px 20px;
+        }
+    }
+}

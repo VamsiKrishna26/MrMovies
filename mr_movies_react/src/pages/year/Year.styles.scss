@@ -1,0 +1,32 @@
+.year{
+    padding: 20px 60px;
+
+    .year-button{
+        margin: 15px;
+        height: 40px;
+        width: 69px;
+        border-radius: 20px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .year{
+        padding: 10px 20px;
+
+        .year-title{
+            font-size: large;
+        }
+
+        .year-button{
+            margin: 3px;
+            height: 25px;
+            width: 49px;
+
+            .button-year{
+                font-size: 10px;
+            }
+        }
+
+    }
+}

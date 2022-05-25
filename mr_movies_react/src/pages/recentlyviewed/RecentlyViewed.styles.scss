@@ -1,0 +1,39 @@
+.recently-viewed {
+    display: flex;
+    flex-direction: column;
+    
+    .recently-viewed-name{
+      margin-left: 15px;
+    }
+
+    .recently-viewed-vertical{
+      padding: 20px 60px;
+    }
+
+    .login-pls{
+      height:300px;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .recently-viewed{
+      .recently-viewed-name{
+        margin-top: 10px;
+        margin-left: 8px;
+        font-size: large;
+      }
+  
+      .recently-viewed-vertical{
+        padding: 10px 20px;
+      }
+  
+      .login-pls{
+        height: 100px !important;
+        font-size: large;
+      }
+    }
+  }

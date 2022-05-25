@@ -1,0 +1,13 @@
+.search-page{
+    padding: 20px 60px;
+}
+
+@media screen and (max-width:768px) {
+    .search-page{
+        padding: 10px 20px;
+
+        .search-page-heading{
+            font-size: large;
+        }
+    }
+}

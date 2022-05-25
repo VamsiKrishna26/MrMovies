@@ -1,0 +1,49 @@
+.review{
+    background-color: darkgray !important;
+    padding-top: 15px !important;
+    padding-left: 15px !important;
+    padding-bottom: 30px !important;
+    padding-right: 15px !important;
+   
+    .review-details{
+        .text_details{
+            font-size:large;
+            color: black;
+        }
+    
+        .review_text{
+            color: black;
+
+            .showmore{
+                cursor: pointer;
+            }
+        }
+    
+        .review_user{
+            color: black;
+            float: right;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .review{
+        padding-top: 8px !important;
+        padding-left: 5px !important;
+        padding-bottom: 25px !important;
+        padding-right: 10px !important;
+
+        .text_details{
+            font-size: medium;
+        }
+
+        .review_text{
+            font-size: small;
+        }
+
+        .review_user{
+            font-size: medium;
+        }
+
+    }
+}

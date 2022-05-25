@@ -1,0 +1,36 @@
+.Slideshow{
+
+    .image-display{
+        width: 100% !important;
+        height: 430px !important;
+        object-fit: cover;
+        object-position: top;
+        cursor: pointer;
+    }
+
+    .caption{
+        background: rgba(255, 255, 255, 0.351);
+        color: black;
+        height: 100px;
+    }
+
+    @media screen and (max-width:768px) {
+        .image-display{
+            height: 200px !important;
+        }
+
+        .caption{
+            height: 60px;
+
+            .caption-body{
+                padding: 0px;
+                .poster-name{
+                    font-size: 15px;
+                }
+                .poster-year{
+                    display: none;
+                }
+            }
+        }
+    }
+}

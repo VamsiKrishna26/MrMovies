@@ -1,0 +1,28 @@
+.search-page{
+    padding: 20px 60px !important;
+    justify-content: center;
+    align-items: center;
+
+    .search-link{
+        text-decoration: none;
+    }
+
+    .entering-input{
+        color: white;
+    }
+
+    .input{
+        width:50%;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .search-page{
+        padding: 10px 20px !important;
+
+        .search-title{
+            font-size: large;
+        }
+    }
+}

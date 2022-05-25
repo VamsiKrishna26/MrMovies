@@ -1,0 +1,10 @@
+.text-display{
+    margin-left: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .text-display{
+        margin-left: 8px;
+        font-size: large;
+    }
+}

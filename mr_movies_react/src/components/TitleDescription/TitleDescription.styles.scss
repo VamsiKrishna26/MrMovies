@@ -1,0 +1,9 @@
+.title-description{
+    padding: 20px 60px;
+}
+
+@media screen and (max-width:768px) {
+    .title-description{
+        padding: 10px 20px;
+    }
+}

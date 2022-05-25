@@ -1,0 +1,10 @@
+.top-movies{
+    padding: 15px;
+}
+
+@media screen and (max-width:768px) {
+
+    .top-movies{
+        padding: 0px;
+    }
+}

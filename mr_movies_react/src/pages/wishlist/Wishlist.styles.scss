@@ -1,0 +1,39 @@
+.wishlist {
+    display: flex;
+    flex-direction: column;
+    
+    .wishlist-name{
+      margin-left: 15px;
+    }
+
+    .wishlist-vertical{
+      padding: 20px 60px;
+    }
+
+    .login-pls{
+      height:300px;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .wishlist{
+      .wishlist-name{
+        margin-top: 10px;
+        margin-left: 8px;
+        font-size: large;
+      }
+  
+      .wishlist-vertical{
+        padding: 10px 20px;
+      }
+  
+      .login-pls{
+        height: 100px !important;
+        font-size: large;
+      }
+    }
+  }

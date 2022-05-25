@@ -1,0 +1,100 @@
+.header {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #121212;
+    z-index: 999;
+  
+    .heading{
+        display: flex;
+        align-items: center;
+        margin: 15px;
+        font-family: 'Caveat', cursive;
+        cursor: pointer;
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+    }
+
+    .options {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 15px;
+    
+        .option {
+          padding: 10px 15px;
+          cursor: pointer;
+          color: white;
+          font-size: large;
+          text-decoration: none;
+        }
+      }
+
+      .menu-options{
+        display: none;
+      }
+
+      .nav-menu{
+        display: none;
+      }
+      
+  }
+  @media screen and (max-width:768px) {
+    .header{
+      height: 60px;
+
+      .heading{
+        margin: 10px;
+        font-size: 30px;
+      }
+
+      .options{
+        display: none;
+      }
+
+      .menu-options{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 15px;
+        cursor: pointer;
+        color: white;
+      }
+
+
+    }
+    .nav-menu{
+      display: flex;
+      flex-direction: column;
+      float: right;
+      background-color: #121212;
+      width: 100%;
+      height: 200vh;
+      align-items: center;
+      position: relative;
+      top: 0;
+      transition: 1000ms;
+
+      .navmenu-option{
+        padding: 10px 15px;
+        cursor: pointer;
+        color: white;
+        font-size: 22px;
+        text-decoration: none;
+      }
+
+      .signin-button{
+        padding: 20px 15px !important;
+      }
+    }
+
+    .option-menu{
+      width: 50px;
+      height: 30px;
+    }
+
+  }

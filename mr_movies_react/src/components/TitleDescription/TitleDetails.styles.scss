@@ -1,0 +1,144 @@
+.img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.similar{
+    margin-top: 15px;
+    color: black;
+}
+
+
+.title-description{
+
+    .title-details{
+        .title_name{
+            color: black;
+        }
+    
+        .text_details{
+            margin-top: 15px;
+            font-size:large;
+            color: black;
+        }
+    
+        .remove-button{
+            margin-top: 10px;
+            background-color: red;
+        }
+    
+        .add-button{
+            margin-top: 10px;
+            background-color: green;
+        }
+
+        .login{
+            background-color: blue;
+            cursor: not-allowed;
+        }
+        .rating{
+            margin-top: 15px;
+            color: black;
+            .rating_tmdb{
+                margin-top: 10px;
+                margin-right: 10px;
+            }
+            .vote_count{
+                font-size: medium;
+                color: black;
+            }
+        }
+        .imdb{
+            width: 120px;
+            height: 60px;
+            margin: 15px;
+            position: relative;
+        }
+        .google{
+            width: 120px;
+            height: 40px;
+            margin: 15px;
+            position: relative;
+        }
+        .rotten{
+            width: 120px;
+            height: 40px;
+            margin: 15px;
+            position: relative;
+        }
+    }
+
+    .reviews{
+        margin-top: 15px;
+        color: black;
+    }
+    .discussions{
+        margin-top: 15px;
+        color: black;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .title-description{
+        .title-details{
+            .title_name{
+                font-size: large;
+            }
+    
+            .text_details{
+                font-size: small;
+                margin-top: 8px;
+
+            }
+
+            .remove-button{
+                margin-top: 7px;
+            }
+        
+            .add-button{
+                margin-top: 7px;
+            }
+
+            .rating{
+                font-size: large;
+                margin-top: 8px;
+                .rating_tmdb{
+                    margin-top: 5px;
+                    margin-right: 5px;
+                }
+                .vote_count{
+                    font-size: small;
+                }
+            }
+            .imdb{
+                width: 65px;
+                height: 25px;
+                margin: 8px;
+            }
+            .google{
+                width: 65px;
+                height: 25px;
+                margin: 8px;
+            }
+            .rotten{
+                width: 65px;
+                height: 25px;
+                margin: 8px;
+            }
+        }
+
+        .reviews{
+            margin-top: 8px;
+            font-size: large;
+        }
+        .discussions{
+            margin-top: 8px;
+            font-size: large;
+        }
+        .similar{
+            margin-top: 8px;
+            font-size: large;
+        }
+    }
+}

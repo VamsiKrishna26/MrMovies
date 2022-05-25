@@ -1,0 +1,4 @@
+node_modules
+bin
+TMDB_Movies.json
+imdb_names.json

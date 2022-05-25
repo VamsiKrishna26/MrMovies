@@ -1,0 +1,25 @@
+.top-hits-display{
+
+    margin-top: 15px;
+
+    .title-head{
+        background-color: #212121;
+    }
+
+    .title-per-row{
+        cursor: pointer;
+
+        &.title-per-row:hover{
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width:768px) {
+        
+            .title-table-details{
+                font-size: medium;
+            }
+        }
+    }
+
+
+}

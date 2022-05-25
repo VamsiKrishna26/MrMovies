@@ -1,0 +1,67 @@
+.discussion{
+    padding-top: 5px !important;
+    padding-left: 15px !important;
+    padding-bottom: 10px !important;
+    padding-right: 15px !important;
+   
+    .review-details{
+    
+        .review_text{
+            color: black;
+            margin-bottom: 0px !important;
+        }
+    
+        .review_user{
+            color: black;
+            float: right;
+            cursor: pointer;
+        }
+
+        .delete-comment{
+            color: black;
+            float: right;
+            cursor: pointer;
+        }
+
+        .reply{
+            margin-top: 10px;
+        }
+
+        .reply-button{
+            float: right;
+            font-size: 10px;
+            padding: 3px;
+            width: 100px;
+        }
+
+        .login-reply{
+            float: right;
+            font-size: 10px;
+            padding: 3px;
+            width: 100px;
+            cursor: not-allowed;
+        }
+
+        .emoji-picker{
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .discussion{
+        padding-top: 5px !important;
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+        padding-bottom: 5px !important;
+
+        .reply{
+            width: 180px;
+        }
+        .review-details{
+            font-size: medium;
+        }
+    }
+}
